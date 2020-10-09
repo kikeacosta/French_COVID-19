@@ -1,5 +1,9 @@
 ### Code for COVID-19 French mortality 
 ## 
+
+
+test <- read_csv("Data/deces_2020_M05.csv")
+
 # PREPARATION OBLIGATOIRE #####
 #install.packages("expp")
 library(expp)
