@@ -1,3 +1,5 @@
+### Code for COVID-19 French mortality 
+
 # PREPARATION OBLIGATOIRE #####
 #install.packages("expp")
 library(expp)
@@ -7359,3 +7361,6 @@ dev.off()
 tiff(paste0("grid surmortalité âge",".tiff"), units="in", width=25, height=35, res=780)
 grid.arrange(pagege,pageidf,pagefrhdep,ncol=1,nrow=3)
 dev.off()
+
+
+# Fin
